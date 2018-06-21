@@ -1,0 +1,21 @@
+// Header  {{{
+#include<iostream>
+#include<vector>
+using namespace std;
+// }}}
+// int main()  {{{
+int main()
+{
+	ios_base::sync_with_stdio(false);
+      	cin.tie(false);
+	int N, K, temp;
+	vector<int> weight;
+	cin >> N >> K;
+	for(int i = 0 ; i < N; i++)
+	{
+		cin >> temp;
+		weight.push_back(temp);
+	}
+	return 0;
+}
+//}}}
